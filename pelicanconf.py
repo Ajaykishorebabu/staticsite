@@ -43,6 +43,7 @@ BOOTSTRAP_THEME = 'flatly'
 
 #PLUGIN_PATHS = ['/path/to/git/pelican-plugins']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites',
+    'series']
 
 I18N_TEMPLATES_LANG = 'en'
